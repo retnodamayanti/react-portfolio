@@ -6,7 +6,9 @@ const Resume = () => {
   return (
     <section className="resume">
       <div className="resume-links">
-        <a href="resume.pdf" target="_blank" rel="noopener noreferrer">Download Resume</a>
+        <a href="/retno_resume.pdf" download target="_blank" rel="noopener noreferrer">
+          Download Resume
+        </a>
       </div>
       <div className="proficiencies">
         <h3>Proficiencies</h3>
