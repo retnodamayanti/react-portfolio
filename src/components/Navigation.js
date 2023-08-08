@@ -15,6 +15,8 @@ const Navigation = () => {
       setActiveLink('contact');
     } else if (pathname === '/resume') {
       setActiveLink('resume');
+    } else {
+      setActiveLink('about');
     }
   }, [location]);
 
@@ -40,7 +42,7 @@ const Navigation = () => {
             as={Link}
             to="/"
             className={`nav-link js-scroll-trigger ${activeLink === 'about' ? 'active' : ''}`}
-            onClick={() => scrollToSection('about')}
+            onClick={() => setActiveLink('about')}
           >
             About
           </Nav.Link>
@@ -48,7 +50,7 @@ const Navigation = () => {
             as={Link}
             to="/portfolio"
             className={`nav-link js-scroll-trigger ${activeLink === 'portfolio' ? 'active' : ''}`}
-            onClick={() => scrollToSection('portfolio')}
+            onClick={() => setActiveLink('portfolio')}
           >
             Portfolio
           </Nav.Link>
@@ -56,7 +58,7 @@ const Navigation = () => {
             as={Link}
             to="/contact"
             className={`nav-link js-scroll-trigger ${activeLink === 'contact' ? 'active' : ''}`}
-            onClick={() => scrollToSection('contact')}
+            onClick={() => setActiveLink('contact')}
           >
             Contact
           </Nav.Link>
@@ -64,7 +66,7 @@ const Navigation = () => {
             as={Link}
             to="/resume"
             className={`nav-link js-scroll-trigger ${activeLink === 'resume' ? 'active' : ''}`}
-            onClick={() => scrollToSection('resume')}
+            onClick={() => setActiveLink('resume')}
           >
             Resume
           </Nav.Link>
