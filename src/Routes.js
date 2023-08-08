@@ -1,25 +1,25 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from './components/Header';
-import AboutMe from './components/AboutMe';
-import Portfolio from './components/Portfolio';
-import Contact from './components/Contact';
-import Resume from './components/Resume';
+import AboutMe from './AboutMe';
+import Portfolio from './Portfolio';
+import Contact from './Contact';
+import Resume from './Resume';
 import Footer from './components/Footer'; 
 
-const Routes = () => {
+const AppRoutes = () => {
   return (
     <Router>
       <Header />
-      <Switch>
-        <Route path="/portfolio" component={Portfolio} />
-        <Route path="/contact" component={Contact} />
-        <Route path="/resume" component={Resume} />
-        <Route path="/" exact component={AboutMe} />
-      </Switch> 
+      <Routes>
+        <Route path="/" element={<AboutMe />} />
+        <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/resume" element={<Resume />} />
+      </Routes>
       <Footer /> 
     </Router>
   );
 };
 
-export default Routes;
+export default AppRoutes;
