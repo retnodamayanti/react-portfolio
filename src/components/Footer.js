@@ -3,14 +3,10 @@ import React from 'react';
 const Footer = () => {
   return (
     <footer>
-      <div className="social-links">
-        <a href="/" target="_blank" rel="noopener noreferrer">
-          GitHub
-        </a>
-        <a href="/" target="_blank" rel="noopener noreferrer">
-          LinkedIn
-        </a>    
-      </div>
+    <div class="social-icons">
+        <a class="social-icon" href="https://www.linkedin.com/in/retnomaya/"><i class="fab fa-linkedin-in"></i></a>
+        <a class="social-icon" href="https://github.com/retnodamayanti"><i class="fab fa-github"></i></a>
+    </div>
     </footer>
   );
 };

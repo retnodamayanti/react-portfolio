@@ -4,7 +4,7 @@ import Navigation from './Navigation.js';
 const Header = () => {
   return (
     <header>
-      <h1>Your Name</h1>
+      <h1>Retno Damayanti</h1>
       <Navigation />
     </header>
   );
