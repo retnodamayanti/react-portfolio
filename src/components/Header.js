@@ -3,8 +3,10 @@ import Navigation from './Navigation.js';
 
 const Header = () => {
   return (
-    <header>
-      <h1>Retno Damayanti</h1>
+    <header className="card-header">
+      <h1 className="mb-0">
+          Retno <span className="text-primary">Damayanti</span>
+        </h1>
       <Navigation />
     </header>
   );
