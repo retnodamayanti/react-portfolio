@@ -12,7 +12,7 @@ const AppRoutes = () => {
     <Router>
       <Header />
       <Routes>
-        <Route path="/test4-react-deploy" element={<AboutMe />} />
+        <Route path="/react-portfolio" element={<AboutMe />} />
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/resume" element={<Resume />} />
