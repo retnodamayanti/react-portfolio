@@ -10970,3 +10970,63 @@ section.resume-section .resume-section-content {
     padding-bottom: 5rem;
   }
 }
+
+/* additional css */
+
+.project {
+  position: relative;
+  overflow: hidden;
+}
+
+.project-image {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.project-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 102, 0, 0.5);
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: opacity 0.3s ease;
+}
+
+.project:hover .project-overlay {
+  opacity: 1;
+}
+
+.project-details {
+  text-align: center;
+  color: #101214;
+}
+
+.project-details h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.live-link,
+.repo-link {
+  display: inline-block;
+  margin: 5px;
+  padding: 8px 12px;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.live-link:hover,
+.repo-link:hover {
+  background-color: #0056b3;
+  color: #fff;
+}
