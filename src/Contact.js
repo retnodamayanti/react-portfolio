@@ -56,7 +56,7 @@ const Contact = () => {
   return (
     <section className="contact py-5">
       <div className="container">
-        <h2 className="text-center mb-4">Contact Me</h2>
+        {/* <h2 className="text-center mb-4">Contact Me</h2> */}
         <form onSubmit={handleFormSubmit}>
           <div className="mb-3">
             <label htmlFor="name" className="form-label">
