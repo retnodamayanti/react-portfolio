@@ -1,35 +1,30 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import avatarImage from './images/avatar.jpg';
 
 const AboutMe = () => {
+  useEffect(() => {
+    const section = document.getElementById('about');
+    if (section) {
+      section.scrollIntoView({ behavior: 'smooth' });
+    }
+  }, []); // Empty dependency array ensures the effect runs only once when the component mounts
+
   return (
     <section className="resume-section" id="about">
       <div className="resume-section-content">
-        <h1 className="mb-0">
-          Clarence <span className="text-primary">Taylor</span>
+        {/* <h1 className="mb-0">
+          Retno <span className="text-primary">Damayanti</span>
         </h1>
         <div className="subheading mb-5">
-          3542 Berry Street · Cheyenne Wells, CO 80810 · (317) 585-8468 ·{' '}
-          <a href="mailto:name@email.com">name@email.com</a>
-        </div>
+          Walkerville, SA 5081 {' '}
+          <a href="mailto:name@email.com">mayahere5@gmail.com</a>
+        </div> */}
+        <span className="d-none d-lg-block">
+          <img className="img-fluid img-profile rounded-circle mx-auto mb-2" src={avatarImage} alt="avatar-image" style={{ width: '25%' }} />
+        </span>
         <p className="lead mb-5">
-          I am experienced in leveraging agile frameworks to provide a robust synopsis for high
-          level overviews. Iterative approaches to corporate strategy foster collaborative
-          thinking to further the overall value proposition.
+        Hi there! I'm Retno, an aspiring Junior Web Developer. With a passion for coding and strong attention to detail, I thrive on crafting elegant solutions to complex challenges. Effective communication and collaborative teamwork are my driving forces, enabling me to contribute meaningfully to dynamic projects. Dedicated to continuous growth, I'm excited to make my mark in the ever-evolving field of web development. Let's connect and create together.
         </p>
-        <div className="social-icons">
-          <a className="social-icon" href="#!">
-            <i className="fab fa-linkedin-in"></i>
-          </a>
-          <a className="social-icon" href="#!">
-            <i className="fab fa-github"></i>
-          </a>
-          <a className="social-icon" href="#!">
-            <i className="fab fa-twitter"></i>
-          </a>
-          <a className="social-icon" href="#!">
-            <i className="fab fa-facebook-f"></i>
-          </a>
-        </div>
       </div>
     </section>
   );
