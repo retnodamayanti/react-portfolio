@@ -38,8 +38,8 @@ const Portfolio = () => {
     {
       title: 'Generate Password', 
       imageSrc: passwordImage, 
-      liveLink: 'https://github.com/retnodamayanti/generate_password_javascript',
-      repoLink: 'https://retnodamayanti.github.io/generate_password_javascript/',
+      liveLink: 'https://retnodamayanti.github.io/generate_password_javascript',
+      repoLink: 'https://github.com/retnodamayanti/generate_password_javascript',
     },
     {
       title: 'Eazy Shopping', 
