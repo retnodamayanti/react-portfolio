@@ -40,7 +40,7 @@ const Navigation = () => {
         <Nav className="navbar-nav">
           <Nav.Link
             as={Link}
-            to="/"
+            to="/test4-react-deploy"
             className={`nav-link js-scroll-trigger ${activeLink === 'about' ? 'active' : ''}`}
             onClick={() => setActiveLink('about')}
           >
