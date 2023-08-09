@@ -1,16 +1,30 @@
 {
   "files": {
-    "main.css": "/test4-react-deploy/static/css/main.073c9b0a.css",
-    "main.js": "/test4-react-deploy/static/js/main.b617c462.js",
+    "main.css": "/test4-react-deploy/static/css/main.0520d891.css",
+    "main.js": "/test4-react-deploy/static/js/main.7ab85b4b.js",
     "static/js/787.0e4be047.chunk.js": "/test4-react-deploy/static/js/787.0e4be047.chunk.js",
-    "static/media/logo.svg": "/test4-react-deploy/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/weather-dashboard.jpg": "/test4-react-deploy/static/media/weather-dashboard.d0eff7a25ada12a286b0.jpg",
+    "static/media/online-blog.jpg": "/test4-react-deploy/static/media/online-blog.907ac25cab66c523c8ec.jpg",
+    "static/media/project_inventory.jpg": "/test4-react-deploy/static/media/project_inventory.b4e29fbaf665c21e7069.jpg",
+    "static/media/generate-password.jpg": "/test4-react-deploy/static/media/generate-password.20347cec6bd7420b2112.jpg",
+    "static/media/easy_shop.jpg": "/test4-react-deploy/static/media/easy_shop.f4f6b0927b84907c3447.jpg",
+    "static/media/fa-solid-900.ttf": "/test4-react-deploy/static/media/fa-solid-900.d75e3fd1eb12e9bd6655.ttf",
+    "static/media/avatar.jpg": "/test4-react-deploy/static/media/avatar.a3a02ab724cf12510b08.jpg",
+    "static/media/fa-brands-400.ttf": "/test4-react-deploy/static/media/fa-brands-400.016b4a6cdced82ab3aa1.ttf",
+    "static/media/fa-solid-900.woff2": "/test4-react-deploy/static/media/fa-solid-900.b6879d41b0852f01ed5b.woff2",
+    "static/media/coding_quiz.png": "/test4-react-deploy/static/media/coding_quiz.71ded11b5f10de3c2f5f.png",
+    "static/media/fa-brands-400.woff2": "/test4-react-deploy/static/media/fa-brands-400.878f31251d960bd6266f.woff2",
+    "static/media/fa-regular-400.ttf": "/test4-react-deploy/static/media/fa-regular-400.50701fbb8177c2dde530.ttf",
+    "static/media/fa-regular-400.woff2": "/test4-react-deploy/static/media/fa-regular-400.b041b1fa4fe241b23445.woff2",
+    "static/media/fa-v4compatibility.ttf": "/test4-react-deploy/static/media/fa-v4compatibility.c6a0c95b0a95c4553700.ttf",
+    "static/media/fa-v4compatibility.woff2": "/test4-react-deploy/static/media/fa-v4compatibility.1bac2991f3dbfa237aec.woff2",
     "index.html": "/test4-react-deploy/index.html",
-    "main.073c9b0a.css.map": "/test4-react-deploy/static/css/main.073c9b0a.css.map",
-    "main.b617c462.js.map": "/test4-react-deploy/static/js/main.b617c462.js.map",
+    "main.0520d891.css.map": "/test4-react-deploy/static/css/main.0520d891.css.map",
+    "main.7ab85b4b.js.map": "/test4-react-deploy/static/js/main.7ab85b4b.js.map",
     "787.0e4be047.chunk.js.map": "/test4-react-deploy/static/js/787.0e4be047.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.b617c462.js"
+    "static/css/main.0520d891.css",
+    "static/js/main.7ab85b4b.js"
   ]
 }
