@@ -13,15 +13,22 @@ This is my personal portfolio website built using React. It showcases my skills,
 - [License](#license)
 - [Contact](#contact)
 
-
 ## Features
 
 - About Me section with an introduction and profile image.
 - Skills section highlighting my technical skills and expertise.
 - Portfolio section showcasing selected projects with live links and GitHub repositories.
+    <p align="center">
+    <img src="./src/images/ss_portfolio.png" width="1000">
+    </p>
 - Contact section with a form for users to send me messages.
 - Navigation bar for easy navigation between sections.
 - Responsive design for optimal viewing on various devices.
+    <p align="center">
+        <img src="./src/images/ss_responsive.png" height="1000">
+    </p>
+
+
 
 
 ## Installation
