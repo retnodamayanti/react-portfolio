@@ -5,7 +5,6 @@ import techBlogImage from './images/online-blog.jpg';
 import weatherDashImage from './images/weather-dashboard.jpg';
 import quizImage from './images/coding_quiz.png';
 import passwordImage from './images/generate-password.jpg';
-import easyShopImage from './images/easy_shop.jpg';
 import eazyBudgetImage from './images/eazy_budget.png';
 
 // Import more project images as needed
