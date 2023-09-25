@@ -5,7 +5,8 @@ import techBlogImage from './images/online-blog.jpg';
 import weatherDashImage from './images/weather-dashboard.jpg';
 import quizImage from './images/coding_quiz.png';
 import passwordImage from './images/generate-password.jpg';
-import easyShopImage from './images/easy_shop.jpg'
+import easyShopImage from './images/easy_shop.jpg';
+import eazyBudgetImage from './images/eazy_budget.png';
 
 // Import more project images as needed
 
@@ -42,10 +43,10 @@ const Portfolio = () => {
       repoLink: 'https://github.com/retnodamayanti/generate_password_javascript',
     },
     {
-      title: 'Eazy Shopping', 
-      imageSrc: easyShopImage, 
-      liveLink: 'https://davidhccnguyen.github.io/EasierShopping',
-      repoLink: 'https://github.com/DavidHCCNguyen/C07-EazyShopping',
+      title: 'Eazy Budget', 
+      imageSrc: eazyBudgetImage, 
+      liveLink: 'https://morning-anchorage-93020-4e6c6fe3688a.herokuapp.com',
+      repoLink: 'https://github.com/retnodamayanti/eazy_budget',
     },
    
     
